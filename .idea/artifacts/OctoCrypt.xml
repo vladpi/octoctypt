@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="OctoCrypt">
+    <output-path>$PROJECT_DIR$/artifacts</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="crypto.MainApp" />
+        <option name="description" value="" />
+        <option name="htmlParamFile" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="paramFile" value="" />
+        <option name="title" value="OctoCrypt" />
+        <option name="vendor" value="Vlad P" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Crypto.jar">
+        <element id="module-output" name="OctoCrypt" />
+      </element>
+      <element id="library" level="project" name="net.java.dev.jna:jna-platform:4.2.1" />
+      <element id="library" level="project" name="net.java.dev.jna:jna:4.2.1" />
+    </root>
+  </artifact>
+</component>
